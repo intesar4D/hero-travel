@@ -33,7 +33,27 @@ height: 500px;
 height: 52px;  
 margin-right: 500px;
 margin-top: 50px;
+gap: 20px;
 
+
+}
+.first3{
+    display: flex;
+    color: chartreuse;
+    gap: 20px;
+}
+.where{
+    background-color: #fce3d7;
+}
+.when{
+    background-color: #fce3d7;
+}
+.type{
+    background-color: #fce3d7;
+}
+.find{
+   
+    background-color: rgb(241, 142, 106);
 }
 .explore{
     text-align: center;
@@ -260,6 +280,32 @@ line-height: 26px
     width: 610px;
 height: 424px;
 }
+.foot{
+    text-align: center;
+    
+}
+.fut{
+ 
+   text-align: center;
+  
+    
+}
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    width: 1440px;
+height: 300px;
+margin: 100px;
+}
+.fb{
+    padding-right: 50px;
+}
+.git{
+    padding-left: 50px;
+}
+nav{
+    display: flex;
+}
 @media screen and (max-width: 600px) {
   
 .banner{
@@ -300,5 +346,10 @@ height: 424px;
     gap: 20px;
     width: fit-content;
    }
+footer{
+    width: 100%;
+    margin-bottom: 20px;
+   
+}
 }
 
